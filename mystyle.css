@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.split {
+    height: 100%;
+    /* width: 50%; */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    width: 35%;
+    left: 0;
+    color: white;
+    background-color: #111;
+}
+
+.right {
+    width: 65%;
+    right: 0;
+    background-color: red;
+    padding-top: 60px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: -25px;
+}
+
+.open-button {
+    background-color: #8e1e1e;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    /* position: fixed; */
+    /* bottom: -100px;*/
+    /* right: -180px; */
+    width: 280px;
+}
+
+/* .sign {
+    background-color: #2c2126;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+} */
+
+button:hover {
+    opacity: 5;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    /* background: #f1f1f1; */
+    color: gray;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+
+
+input[type=name],
+input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    /* background: #f1f1f1; */
+    color: gray;
+}
+
+input[type=name]:focus,
+input[type=number]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+a {
+    color: rgb(234, 237, 241);
+}
+
+.btn {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 4px 2px;
+    width: 50%;
+    height: 10%;
+    margin-top: 1%;
+}
+
+body .sms{
+    color: #111;
+}
+
+h1{
+    margin-top: 5%;
+    color: white;
+}
+
+
+
+
+   
